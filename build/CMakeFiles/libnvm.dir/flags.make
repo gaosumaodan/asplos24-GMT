@@ -6,5 +6,5 @@ CXX_DEFINES = -D_CUDA -D__CUDA__ -Dlibnvm_EXPORTS
 
 CXX_INCLUDES = -I/home/gmt/asplos24-GMT/build/include -I/home/gmt/asplos24-GMT/include -I/home/gmt/asplos24-GMT/include/freestanding/include -I/usr/local/cuda/include -I/home/gmt/asplos24-GMT/src
 
-CXX_FLAGS =  -Wall -Wextra -std=c++11 -Wall -Wextra -std=c++11 -Wall -Wextra -std=c++11 -std=gnu++11 -fPIC
+CXX_FLAGS =  -Wall -Wextra -std=c++11 -std=gnu++11 -fPIC
 

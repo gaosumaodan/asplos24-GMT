@@ -1,0 +1,16 @@
+# 忽略所有编译生成的二进制文件
+*.ko
+*.o
+*.so
+*.a
+*.mod
+*.mod.c
+*.cmd
+*.order
+*.symvers
+
+# 忽略特定构建目录
+/build/
+/out/
+/bin/
+/obj/

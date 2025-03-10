@@ -105,10 +105,10 @@ endif()
 
 # This is the list of host compilation flags.  It C or CXX should already have
 # been chosen by FindCUDA.cmake.
-set(CMAKE_HOST_FLAGS  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra  )
-set(CMAKE_HOST_FLAGS_DEBUG  -Wall -Wextra  -Wall -Wextra  -Wall -Wextra   -Wall -Wextra  -Wall -Wextra   -Wall -Wextra  -g -g -DDEBUG  -g -DDEBUG  -g -DDEBUG )
+set(CMAKE_HOST_FLAGS  -Wall -Wextra  )
+set(CMAKE_HOST_FLAGS_DEBUG  -Wall -Wextra  -g -g -DDEBUG )
 set(CMAKE_HOST_FLAGS_MINSIZEREL -Os -DNDEBUG)
-set(CMAKE_HOST_FLAGS_RELEASE -O3 -DNDEBUG -O2  -O2  -O2 )
+set(CMAKE_HOST_FLAGS_RELEASE -O3 -DNDEBUG -O2 )
 set(CMAKE_HOST_FLAGS_RELWITHDEBINFO -O2 -g -DNDEBUG)
 
 # Take the compiler flags and package them up to be sent to the compiler via -Xcompiler

@@ -13588,7 +13588,7 @@ struct is_base_of : public integral_constant< bool, __is_base_of(_Base, _Derived
 # 1415
 template< class _From, class _To> 
 # 1416
-struct is_convertible : public __bool_constant< __is__convertible(_From, _To)>  { 
+struct is_convertible : public __bool_constant< __is_convertible(_From, _To)>  { 
 # 1418
 }; 
 # 1458 "/usr/include/c++/13/type_traits" 3
@@ -15221,7 +15221,7 @@ is_base_of_v = __is_base_of(_Base, _Derived);
 # 3363
 template< class _From, class _To> constexpr inline bool 
 # 3364
-is_convertible_v = __is__convertible(_From, _To); 
+is_convertible_v = __is_convertible(_From, _To); 
 # 3369
 template< class _Fn, class ..._Args> constexpr inline bool 
 # 3370
