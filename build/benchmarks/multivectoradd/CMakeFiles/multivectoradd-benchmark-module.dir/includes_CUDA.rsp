@@ -1,0 +1,1 @@
+-I"/home/gmt/asplos24-GMT/build/include" -I"/home/gmt/asplos24-GMT/include" -I"/home/gmt/asplos24-GMT/include/freestanding/include" -I/usr/local/cuda/include
